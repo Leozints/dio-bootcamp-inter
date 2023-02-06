@@ -2,6 +2,14 @@ public class usuario {
     public static void main(String[] args) throws Exception {
         SmartTv smartTv = new SmartTv();
 
+        smartTv.AumentarVolume();
+        smartTv.AumentarVolume();
+        smartTv.AumentarVolume();
+        smartTv.AumentarVolume();
+        smartTv.AumentarVolume();
+        smartTv.AumentarVolume();
+        smartTv.DiminuirVolume();
+
         System.out.println("tv ligada? " + smartTv.ligada);
         System.out.println("canal atual: " + smartTv.canal);
         System.out.println("Volume atual: " + smartTv.volume);
